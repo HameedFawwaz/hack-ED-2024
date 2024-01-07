@@ -5,9 +5,6 @@ import os
 import time
 
 
-#token = input("Enter your token here!")
-token = "MTE0Nzk3NTg3NTk2MzM5MjEyMA.GH2ec-.jsiYiuP5qk1cEYctl4tm7jiNghq2LUeKEIII20"
-
 f = open("config.json", "x")
 json.dump({"Token": token, "Prefix": "="}, f)
 
