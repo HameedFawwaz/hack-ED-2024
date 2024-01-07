@@ -17,7 +17,7 @@ from gifInfo import GifDB
 from leaveInfo import LeaveDB
 from gptInfo import GPTdb
 
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 def get_completion(prompt, model = 'gpt-3.5-turbo'):
     new_prompt = f"Would you consider anything of the following to be hateful, derogatory, a slur, misinformation, or a swear word. Answer with yes or no, do not answer with anything other than yes or no: {prompt}"
